@@ -21,7 +21,7 @@ setup(
     packages=['django_db_conn_pool', 'django_db_conn_pool.mysqlalchemy'],
     package_data={'': ['LICENSE', 'NOTICE']},
     include_package_data=True,
-    python_requires='>=2.7,<3',
+    python_requires='>=2.7,<3.9',
     install_requires=['six', 'typing', 'django', 'sqlalchemy'],
     license='Apache 2.0',
     zip_safe=False,
