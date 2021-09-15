@@ -12,7 +12,7 @@ with open('HISTORY.rst', 'r', 'utf-8') as f:
 
 setup(
     name='django-db-conn-pool',
-    version='1.0.0',
+    version='1.0.01',
     description='Gevent-Friendly Database Connection Pooling in Django',
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/x-rst',
