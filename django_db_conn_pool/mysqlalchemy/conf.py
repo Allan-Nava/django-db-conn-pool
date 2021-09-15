@@ -72,8 +72,8 @@ class DjangoPoolParams(object):
         'django_retire_interval': 'retire_interval',
         'django_retire_quantity': 'retire_quantity',
     }
-    if not _supported_params.issuperset(_params_to_kwargs.viewkeys()):
-        raise Exception('invalid supported params: %s' % _supported_params)
+    #if not _supported_params.issuperset(_params_to_kwargs.viewkeys()):
+    #    raise Exception('invalid supported params: %s' % _supported_params)
 
     def __init__(self, pool_params):
         """
